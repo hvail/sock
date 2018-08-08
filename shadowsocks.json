@@ -1,0 +1,13 @@
+{
+	"server":"0.0.0.0",
+	"local_address":"127.0.0.1",
+	"local_port":1080,
+	"port_password":{
+		"5000":"hyz",
+		"5001":"hyz5001",
+		"5002":"hyz5002"
+	},
+	"timeout":300,
+	"method":"aes-256-cfb",
+	"fast_open": false
+}
