@@ -12,3 +12,4 @@ RUN ls -An
 
 #CMD ["ssserver" ,"-p" ,$PORT, "-k", $PWD, "-m", "re4-md5", "--user", "nobody", "start"]
 CMD ["/bin/sh"]
+ENTRYPOINT ["/usr/local/bin/ssserver"]
