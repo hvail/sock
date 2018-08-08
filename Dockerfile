@@ -6,7 +6,6 @@ ENV PWD=sky1088
 WORKDIR /usr/src/app
 ADD requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install shadowsocks
 COPY . .
 RUN ls -An
 
