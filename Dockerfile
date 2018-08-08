@@ -8,5 +8,7 @@ ADD requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install shadowsocks
 COPY . .
+RUN ls -An
 
-CMD ["ssserver" ,"-p" ,$PORT, "-k", $PWD, "-m", "re4-md5", "--user", "nobody", "start"]
+#CMD ["ssserver" ,"-p" ,$PORT, "-k", $PWD, "-m", "re4-md5", "--user", "nobody", "start"]
+CMD ["/bin/sh"]
