@@ -9,4 +9,4 @@ RUN ls -An
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
-CMD ["ssserver","-p", $PORT, "-k", $PWD, "-m", "re4-md5", "--user", "nobody", "start"]
+CMD ["ssserver" ,"-p" ,$PORT, "-k", $PWD, "-m", "re4-md5", "--user", "nobody", "start"]
