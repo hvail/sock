@@ -4,6 +4,7 @@ ENV PORT=443
 ENV PWD=sky1088
 
 WORKDIR /usr/src/app
+RUN ls -An
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
