@@ -9,7 +9,7 @@ Markdown==2.6.8
 MarkupSafe==1.0
 oauth==1.0.1
 prettytable==0.7.2
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.4
 shadowsocks==2.8.2
 six==1.10.0
